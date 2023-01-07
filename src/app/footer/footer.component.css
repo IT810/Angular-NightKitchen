@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: khaki;
+    border-top: 1px solid crimson;
+}
+
+.container{
+    width: 1280px;
+}

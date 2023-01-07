@@ -1,0 +1,78 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid crimson;
+    background-color: khaki;
+}
+
+.header-content {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 20px;
+    font-size: 30px;
+    color: crimson;
+    font-weight: bold;
+}
+
+.logo:hover {
+    cursor: pointer;
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+.search-box {
+    width: 400px;
+    position: relative;
+    display: flex;
+}
+
+.search-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #111d5e;
+    border-right: none;
+    outline: none;
+    font-size: 14px;
+    color: tomato;
+    background: white;
+}
+
+.search-button {
+    text-align: center;
+    width: 20%;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #111d5e;
+    border-left: none;
+    background: seagreen;
+    font-size: 14px;
+    border-left: 1px solid #111d5e;
+    color: white;
+    font-weight: bold;
+}
+
+.cart button{
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.login-button{
+    font-weight: bold;
+    background-color:tomato;
+    color: white;
+    border: 1px solid silver;
+}
+
+.cart-button{
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid silver;
+}
